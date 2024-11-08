@@ -1,0 +1,58 @@
+ .student{
+     border: 4px solid black;
+     margin: 20PX; 
+     padding: 20PX;
+     width: 100%;
+     
+     overflow: auto;
+     
+} 
+h1{
+    color: goldenrod;
+    text-align: center;
+}
+
+.studentDetails{
+    border: 4px solid black;
+     margin: 20PX; 
+     padding: 20PX;
+    display: flex;         /* Use Flexbox layout */
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+/* .table-data{
+    width: 50%;
+    height:50px;
+    margin: 20px auto;
+    border-collapse: collapse ;
+}
+ th,  td{
+    border:  2px solid black;
+    text-align: center;
+    padding: 20px auto;
+} */
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 90px auto;
+    width: 50%;
+    height: 50px;
+    
+
+
+}
+td,th{
+    border:2px solid black;
+    text-align: center;
+    padding:20px auto;
+    
+
+}
+.stu-table{
+    border: 2px solid brown;
+    margin: 20px ;
+
+}
